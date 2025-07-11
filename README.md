@@ -31,8 +31,7 @@ Movie W Explorer is a sleek movie browsing web app that lets users explore, sear
 
 ## UI Inspiration
 
-This project was inspired by modern and visually striking movie UI concepts:
-
+The UI for this project was inspired by movie website designs found on Dribbble and Fasel HD.
 - [ Dribbble: Movie Streaming Website by Tran Mau Tri Tam](https://dribbble.com/shots/17793025-Movie-streaming-website)
 - [ Dribbble: Flix-id Dashboard by Leo](https://dribbble.com/shots/23402774-Flix-id-Movie-Streaming-Dashboard-Exploration)
 - [ Fasel HD Website](https://web31.faselhd1watch.one/movies)
