@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: #030303;
+    color: #DDDDDD;
+
+
+    padding: 0px 30px;
+    font-family: "Nunito Sans", sans-serif;
+
+    overflow: scroll;
+
+}
+
+
+/*header*/
+
+.header {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #030303;
+    padding: 15px 30px;
+
+    z-index: 1000;
+
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.header .search-bar {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    background-color: #DDDDDD;
+    padding: 0 10px;
+    border-radius: 40px;
+
+}
+
+.search-bar input {
+    padding: 10px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    color: #030303;
+
+
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-bar input::placeholder {
+    color: #030303;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+.search-bar svg {
+    color: #030303;
+    cursor: pointer;
+    transition: all ease 0.15s;
+}
+
+.search-bar svg:hover {
+    transform: translateX(-8px);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+@media (max-width: 590px) {
+    .header .logo {
+        font-size: 1rem;
+    }
+
+
+    .header .search-bar {
+        gap: 3px;
+        border: none;
+        padding: 0 3px;
+        border-radius: 40px;
+
+    }
+
+    .search-bar input {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .header {
+        gap: 10px;
+        padding: 15px 0;
+
+    }
+}

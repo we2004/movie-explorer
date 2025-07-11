@@ -1,0 +1,69 @@
+/*about page*/
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github,
+.x-account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 5px;
+    transition: all ease 0.15s;
+}
+
+.github:hover,
+.x-account:hover {
+    transform: translateX(10px);
+}
+
+.text {
+    font-size: 20px;
+}
+
+.name {
+    font-size: 30px;
+    color: #F79B72;
+    font-weight: bold;
+    font-style: italic;
+
+    text-align: center;
+}
+
+.about-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+
+    padding: 50px 20px;
+    width: 300px;
+
+}
+
+.home-screen {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    border: 1px solid #030303;
+    background-color: #F79B72;
+    font-weight: bold;
+
+    transition: all ease 0.15s;
+}
+
+.home-screen:hover {
+    padding: 10px 30px;
+}

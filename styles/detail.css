@@ -1,0 +1,246 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*whole content*/
+.whole-content {
+    align-self: center;
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+/*left side*/
+.poster img {
+    border-radius: 10px;
+    width: 300px;
+    height: 445px;
+}
+
+/*middle side*/
+.middle-side {
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    padding: 0 55px;
+}
+
+.middle-side .title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #F79B72;
+
+    max-width: 500px;
+}
+
+.story-line .title,
+.info .title {
+    color: #DDDDDD;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.story-line .summary {
+    max-width: 500px;
+}
+
+.middle-side .info {
+    margin-top: 60px;
+}
+
+.middle-side .sub-info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sub-info .label {
+    width: 150px;
+}
+
+.sub-info .value {
+    flex: 1;
+
+    max-width: 250px;
+}
+
+.sub-info svg {
+    color: #F79B72;
+}
+
+/*right part*/
+.right-side .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #F79B72;
+}
+
+.cast-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.cast-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.name {
+    font-size: 0.9rem;
+}
+
+.charecter {
+    font-size: 0.85rem;
+    color: #f79a72cc;
+
+    max-width: 180px;
+}
+
+
+/*responsive*/
+
+@media (max-width: 1212px) {
+    .middle-side {
+        border: none;
+    }
+}
+
+@media (max-width: 960px) {
+    .whole-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 0px;
+    }
+
+    .middle-side {
+        border: none;
+        padding: 0;
+    }
+
+    .right-side {
+        margin-top: 50px;
+        grid-column: 1 / -1;
+
+    }
+
+
+    .cast-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .right-side .title {
+        margin-bottom: 30px;
+        font-size: 1.7rem;
+    }
+
+    body {
+        padding: 0px 30px;
+    }
+
+    .middle-side .info {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 750px) {
+    .poster img {
+        border-radius: 10px;
+        width: 240px;
+        height: 356px;
+    }
+
+    .middle-side .title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .story-line .title,
+    .info .title {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+    .story-line .summary {
+        font-size: 15px;
+    }
+
+    .middle-side .info {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .middle-side .sub-info {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 590px) {
+    .whole-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-side {
+        margin-top: 30px;
+    }
+
+    .middle-side .title {
+        text-align: center;
+    }
+
+    .story-line {
+        text-align: center;
+
+    }
+
+    .middle-side .summary {
+        max-width: 350px;
+    }
+
+    .middle-side .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 590px) {
+    .right-side .title {
+        text-align: center;
+    }
+
+    .right-side {
+        margin-top: 30px;
+    }
+
+    .cast-cards {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+
+    .cast-card img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .middle-side .info {
+        text-align: center;
+    }
+}
