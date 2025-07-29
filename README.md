@@ -2,7 +2,7 @@
 
 **Live Demo:** [movie-w-explorer.netlify.app](https://movie-w-explorer.netlify.app/)  
 
-Movie W Explorer is a sleek movie browsing web app that lets users explore, search, and view detailed information about movies using data from [The Movie Database (TMDb)](https://www.themoviedb.org/). Built with modern JavaScript and the app offers a dynamic and responsive user experience.
+Movie W Explorer is a movie browsing web app that lets users explore, search, and view detailed information about movies using data from [The Movie Database (TMDb)](https://www.themoviedb.org/). Built with modern JavaScript and the app offers a dynamic and responsive user experience.
 
 ---
 
